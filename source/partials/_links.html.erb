@@ -1,0 +1,26 @@
+<%# If background_type is 'festa', set background_class to 'bg-festa'. %>
+<% background_class = case background_type
+     when "ponto de vendas" then "bg-pontos-de-venda"
+     when "prêmios" then "bg-prêmios"
+     when "fireworks" then "bg-fireworks"
+     else "bg-default" # fallback
+   end
+%>
+
+<%# <div> %>
+   <%# <% link_to link_url, class: "background-link" do %> 
+      <%# <div class="<%= background_class %>
+         <%# Prêmios %>
+      <%# </div> %>
+   <%# <% end %> 
+<%# </div> %>
+
+<% link_to link_url, class: "background-link" do %>
+   <div class="category">
+      <div class="<%= background_class %>">
+      </div>
+      <div class="text-center">
+         <h3><%= background_type.capitalize %></h3>
+      </div>
+   </div>
+<% end %>

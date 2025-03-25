@@ -1,0 +1,22 @@
+nav {
+   padding: 0px 130px;
+   font-size: 20px;
+   background: linear-gradient(
+      to right,
+      /* rgb(204, 51, 0), */
+      rgb(255, 106, 0), 
+      rgb(255, 119, 0), 
+      rgb(255, 169, 9)
+   );
+}
+ 
+nav img {
+width: 90px;
+clip-path: circle(33%);
+overflow: hidden;
+}
+
+.wrap {
+display: flex;
+align-items: center;
+}
