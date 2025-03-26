@@ -98,6 +98,7 @@ GEM
       uglifier (>= 3, < 5)
       webrick
     minitest (5.25.5)
+    ostruct (0.6.1)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -147,6 +148,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 4.5)
   middleman-autoprefixer (~> 3.0)
+  ostruct
   terser (~> 1.1)
   tzinfo-data
   wdm (~> 0.1)
