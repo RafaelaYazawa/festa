@@ -2,7 +2,7 @@
 <% background_class = case background_type
      when "ponto de vendas" then "bg-pontos-de-venda"
      when "prêmios" then "bg-prêmios"
-     when "fireworks" then "bg-fireworks"
+     when "acesso" then "bg-acesso"
      else "bg-default" # fallback
    end
 %>
@@ -16,7 +16,7 @@
 <%# </div> %>
 
 <% link_to link_url, class: "background-link" do %>
-   <div class="category">
+   <div class="options">
       <div class="<%= background_class %>">
       </div>
       <div class="text-center">
