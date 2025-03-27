@@ -1,0 +1,27 @@
+.quadro-avisos {
+  background: #f5c6a5; /* cor de fundo laranja suave */
+  border: 2px solid #c75000; /* borda marrom clara */
+  border-radius: 8px; /* borda arredondada */
+  padding: 20px;
+  width: 80%; /* ajusta a largura do quadro */
+  margin: 20px auto;
+  font-family: "Arial", sans-serif;
+}
+
+.quadro-avisos h2 {
+  text-align: center;
+  color: #b34d00; /* cor do título em tom de laranja */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.quadro-avisos ul {
+  list-style-type: none; /* remove os marcadores da lista */
+  padding-left: 0;
+}
+
+.quadro-avisos li {
+  font-size: 18px;
+  color: #5a3d2d; /* cor de texto em marrom */
+  margin: 8px 0;
+}

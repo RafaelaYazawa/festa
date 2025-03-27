@@ -1,15 +1,16 @@
 .background-link {
-  padding-bottom: 20px;
-  color: #ffffff;
-  text-shadow: 5px 6px 5px rgba(0, 0, 0, 1);
+  padding-bottom: 30px;
+  color: #f0f0f0;
+  text-shadow: 3px 3px 3px #672811;
   font-weight: bold;
   text-decoration: none;
 }
 
 .options {
   position: relative;
-  box-shadow: 4px 4px 7px $red-orange;
+  box-shadow: 2px 2px 6px $brown;
   border-radius: 8px;
+  transition: all 0.2s ease-in;
   h3 {
     opacity: 1;
     position: absolute;
@@ -17,26 +18,32 @@
     left: 20px;
   }
 }
+.options:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 2px 2px 6px $brown;
+}
 
 .bg-pontos-de-venda {
   width: 100%;
   height: 120px;
   border-radius: 8px;
   background-image: url("https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg"); /* Change this to the correct image */
+  filter: brightness(80%);
   background-size: cover;
-  opacity: 0.9;
+  // opacity: 0.9;
   background-position: 50% 50%;
 }
 
-.bg-prêmios {
+.bg-cronograma {
   margin-top: 20px;
   width: 250px;
   height: 120px;
   border-radius: 8px;
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/020/894/847/large/winner-gold-wording-text-scene-video.jpg"); /* Change this to the correct image */
+  background-image: url("https://arquitetura.vivadecora.com.br/wp-content/uploads/2018/04/cronograma-de-obra-como-fazer-datas-1024x579.jpg"); /* Change this to the correct image */
+  filter: brightness(60%);
   background-size: cover;
-  opacity: 0.8;
-  background-position: top;
+  // opacity: 0.8;
+  background-position: center;
 }
 
 .bg-acesso {
@@ -45,7 +52,8 @@
   height: 120px;
   border-radius: 8px;
   background-image: url("https://s2-g1.glbimg.com/qsIX2Uu6Fw-PO6nVOJifMwM1p14=/0x0:4500x3003/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/2/4/HmFP7gSRWsvKPRnqBKBw/google-maps.jpg"); /* Change this to the correct image */
+  filter: brightness(85%);
   background-size: cover;
-  opacity: 0.8;
+  // opacity: 0.8;
   background-position: top;
 }
